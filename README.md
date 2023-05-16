@@ -193,7 +193,7 @@ my_dict2 = {
 
 #### 참고 변경가능(mutable)/변경 불가능(immutable)
 # mutable, immutable
-
+```python
 #int
 a = 1
 print(id(a))
@@ -212,7 +212,7 @@ print(id(a))
 a[2]=4
 print(a)
 print(id(a)) #요소가 바뀌었음에도 메모리 주소가 그대로인걸 확인 할 수 있음 -> mutable
-
+```
 
 ```python
 # 가능한 value 값
